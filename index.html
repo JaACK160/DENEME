@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="Logo.jpg" alt="">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">SETTİNGS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="stream">
+            <img class="img1" src="c415f5aa041f9a06124ffe2097dbe249.jpg" alt="">
+            <div class="contact">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque dicta, debitis odit temporibus blanditiis corporis magni, odio suscipit accusamus aut accusantium eos maiores quos modi corrupti, quia fugit at deleniti!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit exercitationem tenetur officia sit dolores? Quia, a. Iste, rerum, sint qui voluptatum veritatis magnam consequuntur nostrum fugiat quo modi earum enim.</p>
+            </div>
+            <img class="img2" src="f7fbc5173f3880513943b04b29da341f.jpg" alt="">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea tempore sed ab quaerat molestiae minima. Neque dolores soluta quibusdam velit quia sit, beatae ut expedita odit hic repellendus adipisci?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia repellat excepturi non quod! Magni amet dicta facilis illo tempora perferendis repellat vel architecto voluptate. Illum ratione nihil impedit. Maxime, dolore.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $("nav").addClass("navbar");
+            }
+            else{
+                $("nav").removeClass("navbar");
+            }
+        });
+    </script>
+</body>
+</html>
